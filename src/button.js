@@ -16,7 +16,7 @@ class Button {
     }
 
     draw() {
-        this.clicked() ? fill(255) : noFill();
+        this.clicked() ? fill(255) : fill(0);
         rect(this.x, this.y, this.w, this.h);
         this.clicked() ? fill(0) : fill(255);
         textAlign(CENTER);
